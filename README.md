@@ -36,7 +36,7 @@ python heatmap.py maxtss-plus-minus-500bp.bed \
                   -id Depleted DMSO \
                   -o /home/usr/
 
-python heatmap.py maxtss-plus-minus-500bp.bed \
+using k-means: python heatmap.py maxtss-plus-minus-500bp.bed \
                   - numerator POLII-PRO-SEQ-DEPLETION-forward.bw POLII-PRO-SEQ-DEPLETION-reverse.bw\
                   - denominator POLII-PRO-SEQ-DMSO-forward.bw POLII-PRO-SEQ-DMSO-reverse.bw\
                   -x 3 \
