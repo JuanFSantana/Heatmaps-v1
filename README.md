@@ -29,16 +29,16 @@ scikit_learn: https://scikit-learn.org/stable/
 # Example command usage #
 ```
 python3 heatmap.py maxtss-plus-minus-500bp.bed \
-                  - numerator POLII-CHIP-DEPLETION.bw \
-                  - denominator POLII-CHIP-DMSO.bw \
+                  -numerator POLII-CHIP-DEPLETION.bw \
+                  -denominator POLII-CHIP-DMSO.bw \
                   -chip \
                   -x 3 \
                   -id Depleted DMSO \
                   -o /home/usr/
 
 using k-means: python3 heatmap.py maxtss-plus-minus-500bp.bed \
-                  - numerator POLII-PRO-SEQ-DEPLETION-forward.bw POLII-PRO-SEQ-DEPLETION-reverse.bw\
-                  - denominator POLII-PRO-SEQ-DMSO-forward.bw POLII-PRO-SEQ-DMSO-reverse.bw\
+                  -numerator POLII-PRO-SEQ-DEPLETION-forward.bw POLII-PRO-SEQ-DEPLETION-reverse.bw\
+                  -denominator POLII-PRO-SEQ-DMSO-forward.bw POLII-PRO-SEQ-DMSO-reverse.bw\
                   -x 3 \
                   -id Depleted DMSO \
                   -o /home/usr/
