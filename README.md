@@ -1,5 +1,6 @@
 # heatmap.py #
 This script will create heatmaps from bigWig files. K-means clustering can also be applied for in-depth data analysis. 
+As published in [Santana et al., 2024](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkad1253/7513806).
 
 # File requirements #
 The input regions file should be a six-column, tab-delimited bed file containing chromosome, start and end positions, and the strand information for each region. The regions can be of any length as long as it is an even number and the center is a feature under study (e.g. transcription start site). 
